@@ -1,0 +1,13 @@
+.app-anchor .root {
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+}
+.app-anchor .text {
+    font-size: 16px;
+    text-decoration: none;
+}
+.app-anchor .icon .text {
+    font-size: 16px;
+}

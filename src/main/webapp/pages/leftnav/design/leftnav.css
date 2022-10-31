@@ -1,0 +1,11 @@
+.wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .app-anchor.root{
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .app-anchor.text{
+    font-size: 16px;
+    text-decoration: none;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .app-anchor.icon.text{
+    font-size: 16px;
+}

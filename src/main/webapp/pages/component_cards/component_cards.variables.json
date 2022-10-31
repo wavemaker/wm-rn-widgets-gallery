@@ -1,0 +1,29 @@
+{
+  "RandomusersInvoke" : {
+    "_id" : "wm-RandomusersInvoke-wm.ServiceVariable-1630552108583",
+    "name" : "RandomusersInvoke",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ {
+      "target" : "results",
+      "value" : "10",
+      "type" : "java.lang.String"
+    } ],
+    "type" : "randomusers.RootResponse",
+    "service" : "randomusers",
+    "operation" : "invoke",
+    "operationId" : "randomusers_RestServiceVirtualController-invoke",
+    "operationType" : "get",
+    "serviceType" : "RestService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "maxResults" : 20,
+    "startUpdate" : true,
+    "autoUpdate" : false,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "isDefault" : true,
+    "controller" : "RestServiceVirtual"
+  }
+}

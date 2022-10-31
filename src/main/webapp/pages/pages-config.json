@@ -1,0 +1,200 @@
+[ {
+  "name" : "Common",
+  "type" : "PARTIAL",
+  "params" : [ ]
+}, {
+  "name" : "Login",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "Main",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "categories",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_accordion",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_anchor",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_barcodescanner",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_button",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_buttongrp",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_camera",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_cards",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_carousel",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_checkbox",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_checkboxset",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_chips",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_currency",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_datetime",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_dialogs",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_form",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_grid",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_icon",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_label",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_list",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_menu",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_message",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_nav",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_number",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_page",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_panel",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_picture",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_popover",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_progressbar",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_progresscircle",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_radioset",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_rating",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_search",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_select",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_slider",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_spinner",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_switch",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_tabbar",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_tabs",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_text",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_textarea",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_tile",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_toggle",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "component_wizard",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "leftnav",
+  "type" : "LEFTNAV",
+  "params" : [ ]
+}, {
+  "name" : "pageNavigation",
+  "type" : "PAGE",
+  "params" : [ {
+    "name" : "key",
+    "type" : "string"
+  } ]
+} ]

@@ -1,0 +1,8 @@
+.base-label.app-label {
+    width: 100%;
+    margin-top: 8px;
+}
+.base-label.app-label-text {
+    align-self: center;
+    text-transform: capitalize;
+}

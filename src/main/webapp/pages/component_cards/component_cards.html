@@ -1,0 +1,41 @@
+<wm-page name="page1">
+    <wm-mobile-navbar name="mobile_navbar1" title="Cards"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-list listclass="list-group" template="true" template-name="Business Card" itemsperrow="xs-1 sm-2 md-3 lg-4" class="list-card" statehandler="URL" name="randomusersList1" dataset="bind:Variables.users.dataSet.results" navigation="None" title="">
+                <wm-listtemplate layout="media" name="listtemplate1">
+                    <wm-card name="card1" title="" iconclass="">
+                        <wm-card-content fontsize="0.8" fontunit="em" name="card_content1">
+                            <wm-linearlayout direction="row" name="linearlayout1" spacing="8">
+                                <wm-linearlayoutitem name="linearlayoutitem1">
+                                    <wm-picture name="Picture" width="48px" picturesource="bind:Variables.users.dataSet.results[$i].picture.large" height="48px" shape="circle"></wm-picture>
+                                </wm-linearlayoutitem>
+                                <wm-linearlayoutitem name="linearlayoutitem2" flexgrow="1">
+                                    <wm-label name="Name" caption="bind:Variables.users.dataSet.results[$i].name.first" class="h4" margin="0px unset" whitespace="nowrap" color="#222222" fontweight="bold"></wm-label>
+                                    <wm-label name="Department" caption="bind:Variables.users.dataSet.results[$i].location.state" class="p text-muted" margin="unset unset 0px unset" whitespace="nowrap"></wm-label>
+                                    <wm-linearlayout direction="row" name="linearlayout2" class="metrics">
+                                        <wm-linearlayoutitem name="linearlayoutitem3" flexgrow="1" horizontalalign="left">
+                                            <wm-label caption="255" class="h4" margin="0px unset" whitespace="nowrap" name="label6" color="#222222" width="100%" fontweight="bold"></wm-label>
+                                            <wm-label caption="Pending" class="p text-muted" margin="unset unset 0px unset" whitespace="nowrap" name="label9"></wm-label>
+                                        </wm-linearlayoutitem>
+                                        <wm-linearlayoutitem name="linearlayoutitem4" flexgrow="1" horizontalalign="left">
+                                            <wm-label caption="56" class="h4" margin="0px unset" whitespace="nowrap" name="label7" color="#222222" width="100%" fontweight="bold"></wm-label>
+                                            <wm-label caption="Done" class="p text-muted" margin="unset unset 0px unset" whitespace="nowrap" name="label10"></wm-label>
+                                        </wm-linearlayoutitem>
+                                        <wm-linearlayoutitem name="linearlayoutitem5" flexgrow="1" horizontalalign="left">
+                                            <wm-label caption="67" class="h4" margin="0px unset" whitespace="nowrap" name="label8" color="#222222" width="100%" fontweight="bold"></wm-label>
+                                            <wm-label caption="Total" class="p text-muted" margin="unset unset 0px unset" whitespace="nowrap" name="label11"></wm-label>
+                                        </wm-linearlayoutitem>
+                                    </wm-linearlayout>
+                                </wm-linearlayoutitem>
+                                <wm-linearlayoutitem name="linearlayoutitem6">
+                                    <wm-menu caption="" autoclose="outsideClick" name="menu1" iconclass="wi wi-more-vert"></wm-menu>
+                                </wm-linearlayoutitem>
+                            </wm-linearlayout>
+                        </wm-card-content>
+                    </wm-card>
+                </wm-listtemplate>
+            </wm-list>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

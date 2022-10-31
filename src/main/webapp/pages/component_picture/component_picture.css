@@ -1,0 +1,6 @@
+.app-appnavbar-content {
+    text-transform: capitalize;
+}
+.rounded-corner.app-picture {
+    border-radius: 6px;
+}

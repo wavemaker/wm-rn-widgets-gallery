@@ -1,0 +1,23 @@
+{
+  "styles" : {
+    "_id" : "wm-styles-wm.Variable-1641135901172",
+    "name" : "styles",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : [ {
+      "name" : "default",
+      "dataValue" : "app-carousel"
+    }, {
+      "name" : "Style 1",
+      "dataValue" : "app-carousel-1"
+    }, {
+      "name" : "Style 2",
+      "dataValue" : "app-carousel-2"
+    } ],
+    "type" : "entry",
+    "isList" : true,
+    "twoWayBinding" : false,
+    "saveInPhonegap" : false
+  }
+}

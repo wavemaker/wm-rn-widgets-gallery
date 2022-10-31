@@ -1,0 +1,19 @@
+{
+  "profile" : {
+    "_id" : "wm-profile-wm.Variable-1630549545200",
+    "name" : "profile",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : {
+      "firstname" : "George",
+      "lastname" : "Mike",
+      "age" : 24,
+      "dob" : "24/02/1997"
+    },
+    "type" : "entry",
+    "isList" : false,
+    "twoWayBinding" : false,
+    "saveInPhonegap" : false
+  }
+}

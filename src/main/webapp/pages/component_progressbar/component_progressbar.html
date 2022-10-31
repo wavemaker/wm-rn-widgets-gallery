@@ -1,0 +1,47 @@
+<wm-page name="page1">
+    <wm-mobile-navbar name="mobile_navbar1" title="Progress Bar"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-linearlayout direction="column" name="linearlayout2" class="group-panel" spacing="8">
+                <wm-linearlayoutitem name="linearlayoutitem7">
+                    <wm-linearlayout direction="row" name="linearlayout3" verticalalign="center">
+                        <wm-linearlayoutitem name="linearlayoutitem8" horizontalalign="center">
+                            <wm-label padding="unset 0.5em" name="label1" class="text-primary" fontweight="bold" caption="25%"></wm-label>
+                        </wm-linearlayoutitem>
+                        <wm-linearlayoutitem name="linearlayoutitem9" flexgrow="1" horizontalalign="left">
+                            <wm-label padding="unset 0.5em" name="label3" caption="Update in progress..."></wm-label>
+                        </wm-linearlayoutitem>
+                        <wm-linearlayoutitem name="linearlayoutitem10">
+                            <wm-label padding="unset 0.5em" name="label2" caption="5 Sec Left" class="text-primary"></wm-label>
+                        </wm-linearlayoutitem>
+                    </wm-linearlayout>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem6">
+                    <wm-progress-bar datavalue="30" name="progress_bar6"></wm-progress-bar>
+                </wm-linearlayoutitem>
+            </wm-linearlayout>
+            <wm-linearlayout direction="column" name="linearlayout1" spacing="10" width="100%" class="group-panel">
+                <wm-linearlayoutitem name="linearlayoutitem1">
+                    <wm-label padding="unset 0.5em" caption="Default" name="label5" fontsize="12"></wm-label>
+                    <wm-progress-bar datavalue="30" name="progress_bar1"></wm-progress-bar>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem2">
+                    <wm-label padding="unset 0.5em" caption="Success" name="label6" fontsize="12"></wm-label>
+                    <wm-progress-bar datavalue="35" name="progress_bar2" type="success"></wm-progress-bar>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem3">
+                    <wm-label padding="unset 0.5em" caption="Info" name="label7" fontsize="12"></wm-label>
+                    <wm-progress-bar datavalue="55" name="progress_bar3" type="info"></wm-progress-bar>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem4">
+                    <wm-label padding="unset 0.5em" caption="Warning" name="label8" fontsize="12"></wm-label>
+                    <wm-progress-bar datavalue="45" name="progress_bar4" type="warning"></wm-progress-bar>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem5" width="100%">
+                    <wm-label padding="unset 0.5em" caption="Danger" name="label9" fontsize="12"></wm-label>
+                    <wm-progress-bar datavalue="70" name="progress_bar5" type="danger"></wm-progress-bar>
+                </wm-linearlayoutitem>
+            </wm-linearlayout>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

@@ -1,0 +1,43 @@
+<wm-page name="page1">
+    <wm-mobile-navbar name="mobile_navbar1" title="List">
+        <wm-anchor name="anchor1" iconclass="wi wi-gear" class="navbarAnchorItem" caption="" on-tap="Widgets.dialog1.open()"></wm-anchor>
+    </wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-list listclass="list-group" itemclass="list-group-item" template="true" template-name="Media List" itemsperrow="xs-1 sm-1 md-1 lg-1" conditionalclass="bind:dense?'app-list-dense': ''" statehandler="URL" name="randomusersList1" dataset="bind:Variables.users.dataSet.results"
+                navigation="None" title="">
+                <wm-listtemplate layout="media" name="listtemplate2">
+                    <wm-linearlayout direction="row" name="linearlayout2" width="100%" spacing="8" verticalalign="center" padding="4px 8px">
+                        <wm-linearlayoutitem name="linearlayoutitem3">
+                            <wm-picture name="Picture" class="media-object" width="48px" height="48px" picturesource="bind:Variables.users.dataSet.results[$i].picture.thumbnail" shape="rounded"></wm-picture>
+                        </wm-linearlayoutitem>
+                        <wm-linearlayoutitem name="linearlayoutitem4" flexgrow="1" horizontalalign="left" padding="4px 8px">
+                            <wm-linearlayout direction="row" name="linearlayout1" verticalalign="top" width="100%">
+                                <wm-linearlayoutitem name="linearlayoutitem1" flexgrow="1">
+                                    <wm-label class="text-default" caption="bind:Variables.users.dataSet.results[$i].name.first" name="Name" margin="0px unset 4px unset" fontunit="px" fontweight="bold" width="100%" color="#222222"></wm-label>
+                                    <wm-label caption="bind:Variables.users.dataSet.results[$i].location.city" name="Description" class="text-muted" fontsize="12"></wm-label>
+                                </wm-linearlayoutitem>
+                                <wm-linearlayoutitem name="linearlayoutitem2">
+                                    <wm-label name="Time" class="text-muted" caption="bind:Variables.users.dataSet.results[$i].dob.date | toDate: 'dd/M/yyyy'" fontsize="12"></wm-label>
+                                </wm-linearlayoutitem>
+                            </wm-linearlayout>
+                        </wm-linearlayoutitem>
+                    </wm-linearlayout>
+                </wm-listtemplate>
+            </wm-list>
+        </wm-page-content>
+    </wm-content>
+    <wm-dialog dialogtype="design-dialog" modal="true" title="Information" iconclass="wi wi-file-text" name="dialog1" showheader="false">
+        <wm-dialogactions name="dialogactions1" show="false">
+            <wm-button class="btn-primary" caption="Close" on-click="closeDialog()" name="button2"></wm-button>
+        </wm-dialogactions>
+        <wm-linearlayout direction="row" name="linearlayout3" verticalalign="center" horizontalalign="left">
+            <wm-linearlayoutitem name="linearlayoutitem5" flexgrow="1">
+                <wm-label class="col-md-3 control-label" name="label9" caption="Dense"></wm-label>
+            </wm-linearlayoutitem>
+            <wm-linearlayoutitem name="linearlayoutitem6" flexgrow="1" horizontalalign="right">
+                <wm-checkbox caption="Toggle" type="toggle" name="toggle2" datavalue="bind:dense" on-change="toggle2Change($event, widget, newVal, oldVal);Widgets.dialog1.close()"></wm-checkbox>
+            </wm-linearlayoutitem>
+        </wm-linearlayout>
+    </wm-dialog>
+</wm-page>

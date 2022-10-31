@@ -1,0 +1,23 @@
+<wm-page name="page1">
+    <wm-mobile-navbar name="mobile_navbar1" title="Carousel">
+        <wm-anchor name="anchor1" iconclass="wi wi-gear" class="navbarAnchorItem" caption="" on-tap="Widgets.dialog1.open()"></wm-anchor>
+    </wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1" padding="0px">"
+            <wm-carousel height="100%" name="carousel1" conditionalclass="bind:styleName">
+                <wm-carousel-content name="carousel_content1">
+                    <wm-picture name="picture1" picturesource="https://files.pixpa.com/32760/1572257858905-3361.jpg" height="100%"></wm-picture>
+                </wm-carousel-content>
+                <wm-carousel-content name="carousel_content2">
+                    <wm-picture name="picture2" picturesource="https://photos.smugmug.com/Website/Mobile-Wallpapers/i-38jgHgL/0/8d2f3082/X3/iPhone-Android-mobile-wallpaper-lightstory-003-X3.jpg" height="100%"></wm-picture>
+                </wm-carousel-content>
+                <wm-carousel-content name="carousel_content3">
+                    <wm-picture name="picture3" picturesource="https://assets.hongkiat.com/uploads/minimalist-mobile-wallpapers/original/06.jpg" height="100%"></wm-picture>
+                </wm-carousel-content>
+            </wm-carousel>
+        </wm-page-content>
+    </wm-content>
+    <wm-dialog dialogtype="design-dialog" modal="true" title="Style" iconclass="wi wi-file-text" name="dialog1">
+        <wm-switch datavalue="bind:styleName" name="switch1" dataset="bind:Variables.styles.dataSet" datafield="dataValue" displayfield="name" on-change="switch1Change($event, widget, newVal, oldVal);Widgets.dialog1.close()"></wm-switch>
+    </wm-dialog>
+</wm-page>

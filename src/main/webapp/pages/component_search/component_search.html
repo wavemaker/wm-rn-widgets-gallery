@@ -1,0 +1,15 @@
+<wm-page name="page1">
+    <wm-mobile-navbar name="mobile_navbar1" title="Search"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-linearlayout direction="column" name="linearlayout1" spacing="8" class="group-panel">
+                <wm-linearlayoutitem name="linearlayoutitem1">
+                    <wm-search name="search1" placeholder="Select City" dataset="bind:Variables.cities.dataSet" searchkey="city" displaylabel="city" displayimagesrc="picture" datafield="All Fields" showclear="true"></wm-search>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem2">
+                    <wm-search placeholder="Select City" dataset="bind:Variables.cities.dataSet" searchkey="city,picture" displaylabel="city" displayimagesrc="picture" datafield="All Fields" showclear="true" name="search2" imagewidth="32"></wm-search>
+                </wm-linearlayoutitem>
+            </wm-linearlayout>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

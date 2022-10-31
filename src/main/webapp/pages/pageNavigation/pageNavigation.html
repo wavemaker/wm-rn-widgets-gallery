@@ -1,0 +1,13 @@
+<wm-page name="page1" cache="false">
+    <wm-mobile-navbar name="mobile_navbar1" title="bind:Variables.navmodel.dataSet.name"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-list listclass="list-group" template="true" template-name="Action List" itemsperrow="xs-1 sm-1 md-1 lg-1" class="media-list" statehandler="URL" name="navmodelList1" dataset="bind:Variables.navmodel.dataSet.children" navigation="None" nodatamessage="No components found">
+                <wm-listtemplate layout="inline" name="listtemplate1">
+                    <wm-anchor margin="unset 0.5em" name="link" iconclass="bind:Variables.navmodel.dataSet.children[$i].disabled ? 'wi wi-warning' : 'wi wi-chevron-right'" iconposition="right" caption="bind:Variables.navmodel.dataSet.children[$i].name" on-tap="linkTap($event, widget, item, currentItemWidgets)"
+                        width="100%" height="80px" conditionalclass="bind:Variables.navmodel.dataSet.children[$i].disabled ? 'link-warning' : ''"></wm-anchor>
+                </wm-listtemplate>
+            </wm-list>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

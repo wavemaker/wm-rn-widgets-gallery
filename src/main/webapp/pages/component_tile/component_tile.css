@@ -1,0 +1,15 @@
+.app-tile {
+    padding: 16px;
+}
+.text1.app-label-text {
+    color: #558dfb;
+}
+.text2.app-label-text {
+    color: #19a2b8;
+}
+.bordered-tile1.app-tile {
+    border-color: #558dfb;
+}
+.bordered-tile2.app-tile{
+    border-color: #19a2b8;
+}

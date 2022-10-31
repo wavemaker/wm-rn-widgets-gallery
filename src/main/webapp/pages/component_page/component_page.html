@@ -1,0 +1,19 @@
+<wm-page name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1" backgroundcolor="#4263EB"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1" title="WM Gallery" backbutton="false">
+        <wm-anchor name="anchor1" iconclass="wi wi-notifications" class="navbarAnchorItem" caption="" badgevalue="2"></wm-anchor>
+    </wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-linearlayout direction="column" name="linearlayout1" spacing="16" class="group-panel" height="100%">
+                <wm-linearlayoutitem name="linearlayoutitem1" horizontalalign="center" padding="100px unset unset unset">
+                    <wm-picture name="picture1" picturesource="resources/images/imagelists/gallery.png" width="80%"></wm-picture>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem2" horizontalalign="center">
+                    <wm-button class="btn-primary" caption="Enter" type="button" margin="unset 0.5em" name="button1" width="200px" on-tap="Actions.goToPage_pageNavigation.invoke()"></wm-button>
+                </wm-linearlayoutitem>
+            </wm-linearlayout>
+        </wm-page-content>
+    </wm-content>
+    <wm-mobile-tabbar dataset="bind:Variables.tabItems.dataSet" name="mobile_tabbar1" itemlabel="label" itemicon="icon" itemlink="link"></wm-mobile-tabbar>
+</wm-page>

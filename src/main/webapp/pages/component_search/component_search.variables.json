@@ -1,0 +1,29 @@
+{
+  "cities" : {
+    "_id" : "wm-cities-wm.Variable-1629988548032",
+    "name" : "cities",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : [ {
+      "city" : "Mumbai",
+      "picture" : "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg"
+    }, {
+      "city" : "Hyderabad",
+      "picture" : "https://upload.wikimedia.org/wikipedia/commons/4/4d/De_Chaminar_of_Haidrabad.jpg"
+    }, {
+      "city" : "Chennai",
+      "picture" : "https://upload.wikimedia.org/wikipedia/commons/3/32/Chennai_Central.jpg"
+    }, {
+      "city" : "Delhi",
+      "picture" : "https://upload.wikimedia.org/wikipedia/commons/3/30/Red_Fort%2C_Delhi_India.jpg"
+    }, {
+      "city" : "Bengaluru",
+      "picture" : "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bangalore_India.jpg"
+    } ],
+    "type" : "entry",
+    "isList" : true,
+    "twoWayBinding" : false,
+    "saveInPhonegap" : false
+  }
+}

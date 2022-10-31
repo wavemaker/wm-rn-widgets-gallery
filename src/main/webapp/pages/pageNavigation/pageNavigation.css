@@ -1,0 +1,15 @@
+.app-anchor {
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+}
+.app-anchor-text {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.app-label-text {
+    
+}
+.app-anchor-icon .app-icon-shape {
+    font-size: 32px;
+}

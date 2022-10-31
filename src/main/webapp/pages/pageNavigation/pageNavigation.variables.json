@@ -1,0 +1,19 @@
+{
+  "navmodel" : {
+    "_id" : "wm-navmodel-wm.Variable-1629612116230",
+    "name" : "navmodel",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : {
+      "name" : "",
+      "children" : [ {
+        "name" : "name"
+      } ]
+    },
+    "type" : "entry",
+    "isList" : false,
+    "twoWayBinding" : false,
+    "saveInPhonegap" : false
+  }
+}

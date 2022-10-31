@@ -1,0 +1,33 @@
+<wm-page name="page1">
+    <wm-mobile-navbar name="mobile_navbar1" title="Progress Circle"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-linearlayout direction="column" name="linearlayout1" spacing="8" verticalalign="center" class="group-panel">
+                <wm-linearlayoutitem name="linearlayoutitem1" horizontalalign="center">
+                    <wm-linearlayout direction="row" name="linearlayout2" horizontalalign="center" spacing="20">
+                        <wm-linearlayoutitem name="linearlayoutitem6">
+                            <wm-label padding="unset 0.5em" name="label1" caption="app-progress-circle" fontsize="12" fontweight="bold"></wm-label>
+                            <wm-progress-circle width="120px" height="120px" name="progress_circle1" title="" subtitle="default"></wm-progress-circle>
+                        </wm-linearlayoutitem>
+                        <wm-linearlayoutitem name="linearlayoutitem7">
+                            <wm-label padding="unset 0.5em" caption="app-progress-circle1" fontsize="12" name="label2" fontweight="bold"></wm-label>
+                            <wm-progress-circle width="120px" height="120px" name="progress_circle2" type="success" class="app-progress-circle1" subtitle="success"></wm-progress-circle>
+                        </wm-linearlayoutitem>
+                    </wm-linearlayout>
+                </wm-linearlayoutitem>
+                <wm-linearlayoutitem name="linearlayoutitem2" horizontalalign="center">
+                    <wm-linearlayout direction="row" name="linearlayout3" horizontalalign="center" verticalalign="center" spacing="20">
+                        <wm-linearlayoutitem name="linearlayoutitem8">
+                            <wm-label padding="unset 0.5em" caption="app-progress-circle2" fontsize="12" name="label3" fontweight="bold"></wm-label>
+                            <wm-progress-circle width="120px" height="120px" name="progress_circle3" type="info" class="app-progress-circle2" subtitle="info"></wm-progress-circle>
+                        </wm-linearlayoutitem>
+                        <wm-linearlayoutitem name="linearlayoutitem9">
+                            <wm-label padding="unset 0.5em" caption="app-progress-circle3" fontsize="12" name="label4" fontweight="bold"></wm-label>
+                            <wm-progress-circle width="120px" height="120px" name="progress_circle4" type="warning" class="app-progress-circle3" subtitle="warning"></wm-progress-circle>
+                        </wm-linearlayoutitem>
+                    </wm-linearlayout>
+                </wm-linearlayoutitem>
+            </wm-linearlayout>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

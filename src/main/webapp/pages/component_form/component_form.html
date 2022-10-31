@@ -1,0 +1,33 @@
+<wm-page name="page1">
+    <wm-mobile-navbar name="mobile_navbar1" title="Form"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-form errormessage="" captionposition="top" title="Form" enctype="application/x-www-form-urlencoded" method="post" dataset="bind:Variables.profile.dataSet" captionalign="left" name="userForm1" subheading="My form" height="100%">
+                <wm-layoutgrid columns="1" name="layoutgrid1">
+                    <wm-gridrow name="gridrow1">
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn1" xscolumnwidth="12">
+                            <wm-form-field name="firstname" key="firstname" type="string" displayname="Firstname" widget="text" show="true"></wm-form-field>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                    <wm-gridrow name="gridrow2">
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn2" xscolumnwidth="12">
+                            <wm-form-field name="lastname" key="lastname" type="string" displayname="Lastname" widget="text" show="true"></wm-form-field>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                    <wm-gridrow name="gridrow1">
+                        <wm-gridcolumn name="gridcolumn1" columnwidth="12" xscolumnwidth="12">
+                            <wm-form-field name="age" key="age" type="string" displayname="Age" widget="text" show="true"></wm-form-field>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                    <wm-gridrow name="gridrow2">
+                        <wm-gridcolumn name="gridcolumn2" columnwidth="12" xscolumnwidth="12">
+                            <wm-form-field name="dob" key="dob" type="string" displayname="Dob" widget="text" show="true"></wm-form-field>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                </wm-layoutgrid>
+                <wm-form-action key="reset" display-name="Reset" show="true" class="form-reset btn-default" iconclass="wi wi-refresh" title="Reset" disabled="false" widget-type="button" type="reset" update-mode="true"></wm-form-action>
+                <wm-form-action key="save" display-name="Save" show="true" class="form-save btn-success" iconclass="wi wi-save" title="Save" disabled="false" widget-type="button" type="submit" update-mode="true"></wm-form-action>
+            </wm-form>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

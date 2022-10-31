@@ -1,0 +1,7 @@
+.wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .base-label.app-label{
+    width: 100%;
+    margin-top: 8px;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .base-label.app-label{
+    align-self: center;
+    text-transform: capitalize;
+}

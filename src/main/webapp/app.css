@@ -1,0 +1,10 @@
+.app-page-content {
+    padding: 16px;
+}
+
+.group-panel.app-linearlayout {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 8px;
+}

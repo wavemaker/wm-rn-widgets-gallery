@@ -1,0 +1,5 @@
+.wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .app-mobile-navbar .mobile-navbar-center{
+    text-transform: capitalize;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .rounded-corner.app-picture{
+    border-radius: 6px;
+}

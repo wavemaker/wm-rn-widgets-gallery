@@ -1,0 +1,11 @@
+.wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .app-tile{
+    padding: 16px;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .text1.app-label{
+    color: #558dfb;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .text2.app-label{
+    color: #19a2b8;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .bordered-tile1.app-tile{
+    border-color: #558dfb;
+} .wm-studio .wm-right-panel-container .file-container-pane .wm-file-container .wm-workspace .workspace-content .canvas-panel  .bordered-tile2.app-tile{
+    border-color: #19a2b8;
+}
