@@ -4,5 +4,6 @@ The app is designed to showcase all supported widgets in react native and show h
 
 
 Here is the link to download the project zip, download and import it into the wavemaker.
+
 https://github.com/wavemaker/wm-rn-widgets-gallery/releases/tag/v1.0
 https://github.com/wavemaker/wm-rn-widgets-gallery/releases/download/v1.0/WMGallery.zip
